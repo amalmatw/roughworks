@@ -19,7 +19,7 @@ public class Prgm03test
 	WebDriver d;
 	
 @BeforeTest
-public void setup()
+public void browsersetup()
 {
 	WebDriverManager.chromedriver().setup();
 	d=new ChromeDriver();
